@@ -99,7 +99,12 @@ Retorne SOMENTE um JSON neste formato:
     });
   }
 });
-
+app.get('/', (req, res) => {
+  res.send(`
+    <h1>MinhaIA está funcionando! 🤖</h1>
+    <p>Servidor online com sucesso.</p>
+  `);
+});
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Minha IA rodando na porta ${PORT}`);
 });
