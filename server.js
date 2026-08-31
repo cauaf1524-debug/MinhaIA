@@ -12,7 +12,7 @@ const ai = new GoogleGenAI({
 });
 
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "..")));
+app.use(express.static(__dirname));
 
 // Memória da conversa
 const historico = [];
