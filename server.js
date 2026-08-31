@@ -101,7 +101,7 @@ Retorne SOMENTE um JSON neste formato:
 });
 app.get('/', (req, res) => {
   res.send(`
-    <h1>MinhaIA está funcionando! 🤖</h1>
+    <h1>J.A.R.V.I.S. está funcionando! 🤖</h1>
     <p>Servidor online com sucesso.</p>
   `);
 });
